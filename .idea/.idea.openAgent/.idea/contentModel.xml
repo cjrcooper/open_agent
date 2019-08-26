@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Chris\.nuget\packages\nunit3testadapter\3.14.0\build\netcoreapp2.0\nunit.engine.api.dll" t="Include" />
+    <e p="C:\Users\Chris\.nuget\packages\nunit3testadapter\3.14.0\build\netcoreapp2.0\nunit.engine.dll" t="Include" />
+    <e p="C:\Users\Chris\.nuget\packages\nunit3testadapter\3.14.0\build\netcoreapp2.0\NUnit3.TestAdapter.dll" t="Include" />
+    <e p="C:\Users\Chris\.nuget\packages\nunit3testadapter\3.14.0\build\netcoreapp2.0\NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="C:\Users\Chris\.Rider2018.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Chris\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Chris\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_openAgent.-1751861624.00" t="ExcludeRecursive" />
+    <e p="D:\openAgent" t="IncludeRecursive">
+      <e p=".gitignore" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="ClientApp" t="Include">
+        <e p="boot.tsx" t="Include" />
+        <e p="components" t="Include">
+          <e p="Addresses.tsx" t="Include" />
+          <e p="Edit.tsx" t="Include" />
+          <e p="Home.tsx" t="Include" />
+          <e p="Layout.tsx" t="Include" />
+        </e>
+        <e p="css" t="Include">
+          <e p="main.css" t="Include" />
+          <e p="util.css" t="Include" />
+        </e>
+        <e p="routes.tsx" t="Include" />
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="AddressController.cs" t="Include" />
+        <e p="HomeController.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="Address.cs" t="Include" />
+        <e p="DbAccessLayer.cs" t="Include" />
+        <e p="DbContext.cs" t="Include" />
+      </e>
+      <e p="node_modules" t="ExcludeRecursive">
+        <e p="@types" t="IncludeRecursive">
+          <e p="history" t="IncludeRecursive" />
+          <e p="react" t="IncludeRecursive" />
+          <e p="react-dom" t="IncludeRecursive" />
+          <e p="react-hot-loader" t="IncludeRecursive" />
+          <e p="react-router" t="IncludeRecursive" />
+          <e p="react-router-dom" t="IncludeRecursive" />
+          <e p="webpack-env" t="IncludeRecursive" />
+        </e>
+        <e p="aspnet-webpack" t="IncludeRecursive" />
+        <e p="aspnet-webpack-react" t="IncludeRecursive" />
+        <e p="awesome-typescript-loader" t="IncludeRecursive" />
+        <e p="bootstrap" t="IncludeRecursive" />
+        <e p="css-loader" t="IncludeRecursive" />
+        <e p="event-source-polyfill" t="IncludeRecursive" />
+        <e p="extract-text-webpack-plugin" t="IncludeRecursive" />
+        <e p="file-loader" t="IncludeRecursive" />
+        <e p="isomorphic-fetch" t="IncludeRecursive" />
+        <e p="jquery" t="IncludeRecursive" />
+        <e p="json-loader" t="IncludeRecursive" />
+        <e p="react" t="IncludeRecursive" />
+        <e p="react-dom" t="IncludeRecursive" />
+        <e p="react-hot-loader" t="IncludeRecursive" />
+        <e p="react-router-dom" t="IncludeRecursive" />
+        <e p="style-loader" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.dom.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.dom.iterable.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2015.collection.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2015.core.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2015.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2015.generator.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2015.iterable.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2015.promise.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2015.proxy.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2015.reflect.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2015.symbol.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2015.symbol.wellknown.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2016.array.include.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2016.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2016.full.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2017.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2017.full.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2017.intl.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2017.object.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2017.sharedmemory.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es2017.string.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es5.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.es6.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.esnext.asynciterable.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.esnext.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.esnext.full.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.scripthost.d.ts" t="IncludeRecursive" />
+        <e p="typescript\lib\lib.webworker.d.ts" t="IncludeRecursive" />
+        <e p="url-loader" t="IncludeRecursive" />
+        <e p="webpack" t="IncludeRecursive" />
+        <e p="webpack-hot-middleware" t="IncludeRecursive" />
+      </e>
+      <e p="npm-shrinkwrap.json" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.0" t="Include">
+            <e p="openAgent.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="openAgent.csproj" t="IncludeRecursive" />
+      <e p="package.json" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Startup.cs" t="Include" />
+      <e p="tsconfig.json" t="Include" />
+      <e p="Views" t="Include">
+        <e p="_ViewImports.cshtml" t="Include" />
+        <e p="_ViewStart.cshtml" t="Include" />
+        <e p="Home" t="Include">
+          <e p="Index.cshtml" t="Include" />
+        </e>
+        <e p="Shared" t="Include">
+          <e p="_Layout.cshtml" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+        </e>
+      </e>
+      <e p="webpack.config.js" t="Include" />
+      <e p="webpack.config.vendor.js" t="Include" />
+      <e p="wwwroot" t="Include">
+        <e p="dist" t="Include">
+          <e p="731a28a413d642522667a2de8681ff35.ttf" t="Include" />
+          <e p="7940efc40d8e3b477e16cc41b0287139.ttf" t="Include" />
+          <e p="89889688147bd7575d6327160d64e760.svg" t="Include" />
+          <e p="a4e11dda40531debd374e4c8b1dcc7f4.ttf" t="Include" />
+          <e p="e63b93dfac2600782654e2b87910d681.ttf" t="Include" />
+          <e p="main.js" t="Include" />
+          <e p="main.js.map" t="Include" />
+          <e p="vendor-manifest.json" t="Include" />
+          <e p="vendor.css" t="Include" />
+          <e p="vendor.js" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
