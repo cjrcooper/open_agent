@@ -44,12 +44,13 @@ export class Edit extends React.Component<RouteComponentProps<any>, AddressesExa
             method: 'post',
             body: data,
         }).then(() => {
-            this.props.history.push("/addresses"); 
+            this.props.history.push("/"); 
         });
     }
     
 
     private handleChange(event: any) {
+        console.log(this.state.address);
         let currentAddress: any = this.state.address;
         currentAddress[event.target.name] = event.target.value;
         this.setState({address: currentAddress});
@@ -64,6 +65,7 @@ export class Edit extends React.Component<RouteComponentProps<any>, AddressesExa
                     <form onSubmit={this.handleUpdateAddress}>
                         <div className="form-row">
                             <div className="form-group col-md-12">
+                                <input id="id" name={"id"} type="hidden" required value={address.id}/>
                                 <label htmlFor="inputAddress">Address</label>
                                 <input className="form-control" id="inputAddress" name={"streetAddress"} type="text"
                                        onChange={this.handleChange} placeholder="1234 Main St" required value={address.streetAddress}/>

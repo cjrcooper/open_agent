@@ -1,7 +1,5 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
@@ -38,9 +36,18 @@ namespace openAgent.Models
         
         public async Task EditAddressAsync(Address address)
         {
-            _db.Attach(address);
-            _db.Entry(address);
-            await _db.SaveChangesAsync();
+            var result = await _db.Address.SingleOrDefaultAsync(a => a.Id == address.Id);
+
+            if (result != null)
+            {
+                result.Unit = address.Unit;
+                result.State = address.State;
+                result.Suburb = address.Suburb;
+                result.Postcode = address.Postcode;
+                result.StreetAddress = address.StreetAddress;
+                
+                await _db.SaveChangesAsync();
+            }
         }
         
     }

@@ -1,15 +1,9 @@
-using System;
-using System.Buffers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.AspNetCore.SpaServices.Webpack;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
-using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using DbContext = openAgent.Models.DbContext;
 
 namespace openAgent
