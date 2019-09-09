@@ -131,6 +131,7 @@
           <e p="e63b93dfac2600782654e2b87910d681.ttf" t="Include" />
           <e p="main.js" t="Include" />
           <e p="main.js.map" t="Include" />
+          <e p="site.css" t="Include" />
           <e p="vendor-manifest.json" t="Include" />
           <e p="vendor.css" t="Include" />
           <e p="vendor.js" t="Include" />
